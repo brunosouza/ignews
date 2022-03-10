@@ -67,5 +67,5 @@ export const getServerSideProps: GetServerSideProps = async ({
       }
     ),
   };
-  return { props: { post }, revalidate: 60 * 30 };
+  return { props: { post } };
 };
